@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAINSBURYS>
+    <CONFIGURATION>
+        <INCLUDE_PATHS>
+            <INCLUDE_PATH>/classes</INCLUDE_PATH>
+            <INCLUDE_PATH>/functions</INCLUDE_PATH>
+        </INCLUDE_PATHS>
+        <PROJECT>
+            <NAME>Sainsbury's</NAME>
+        </PROJECT>
+        <LOGGER>
+            <FILE>
+                <ENABLED>1</ENABLED>
+                <LEVEL>DEBUG</LEVEL>
+            </FILE>
+        </LOGGER>
+        <PATH>
+			<BASE>/home/apache/jia/sainsburys</BASE>
+        </PATH>
+    </CONFIGURATION>
+</SAINSBURYS>
