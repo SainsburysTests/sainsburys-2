@@ -49,6 +49,7 @@ class getProducts{
 			$productAry[$key] = array_merge($productAry[$key],
 			      	 							$productInfo);
   		}
+  		//$resultsAry = array_replace(array_flip(array('title', 'size', 'unit_price', 'description')), $productAry);//php >= 5.4
   		$resultsAry = $productAry;
   		return array('results'=>$resultsAry,
   							'total'=>number_format($total,2));
